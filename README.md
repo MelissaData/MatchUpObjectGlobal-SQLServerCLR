@@ -11,7 +11,7 @@ For further details, please visit: https://wiki.melissadata.com/index.php?title=
 
 ## Tested Environments
 - Windows 10 64-bit Microsoft SQL MaServer Management Studio 19, Powershell 5.1
-- Melissa data files for 2023-Q4
+- Melissa data files for 2024-Q4
 
 ## Required File(s) and Programs
 
@@ -42,8 +42,8 @@ The console will then prompt you with the following warning shown in the image b
  
 #### Download this project
 ```
-$ git clone https://github.com/MelissaData/MatchUpObjectGlobal-SQLServerCLR
-$ cd MatchUpObjectGlobal-SQLServerCLR
+git clone https://github.com/MelissaData/MatchUpObjectGlobal-SQLServerCLR
+cd MatchUpObjectGlobal-SQLServerCLR
 ```
 
 #### Set up Melissa Updater
@@ -63,15 +63,15 @@ Parameters:
 This will get you the required binary and data files ready to use in the project Build and Data folders respectively.
 
  ```
-    $ .\GetFilesMelissaMatchupObjectGlobal.ps1
-    $ .\GetFilesMelissaMatchupObjectGlobal.ps1 -license "<your_license_string>"
+    .\GetFilesMelissaMatchupObjectGlobal.ps1
+    .\GetFilesMelissaMatchupObjectGlobal.ps1 -license "<your_license_string>"
  ```
 
 For quiet mode:
 
 ```
-    $ .\GetFilesMelissaMatchupObjectGlobal.ps1 -quiet
-    $ .\GetFilesMelissaMatchupObjectGlobal.ps1 -license "<your_license_string>" -quiet
+    .\GetFilesMelissaMatchupObjectGlobal.ps1 -quiet
+    .\GetFilesMelissaMatchupObjectGlobal.ps1 -license "<your_license_string>" -quiet
  ```
 
 ## Run SQL Scripts

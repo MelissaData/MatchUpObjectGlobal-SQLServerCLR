@@ -1,4 +1,4 @@
-# Name:    MelissaMatchUpObjectGlobalSQLServerCLER
+# Name:    MelissaMatchUpObjectGlobalSQLServerCLR
 # Purpose: Use the MelissaUpdater to make the MelissaMatchUpObjectGlobalSQLServerCLR code usable
 
 ######################### Parameters ##########################
@@ -26,7 +26,7 @@ class ManifestConfig {
 
 ######################### Config ###########################
 
-$RELEASE_VERSION = '2023.Q4'
+$RELEASE_VERSION = '2024.Q4'
 $ProductName = "GLOBAL_MU_DATA"
 
 # Uses the location of the .ps1 file 
